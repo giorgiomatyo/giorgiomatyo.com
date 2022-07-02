@@ -57,6 +57,7 @@
             justify-content: space-between;
             align-items: center;
             min-width: 4em;
+            width: 100%;
             text-transform: uppercase;
         }
 
@@ -111,7 +112,7 @@
         }
 
         body {
-            width: 100%;
+            width: auto;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -211,7 +212,7 @@
 
         .logo {
             background: url("./logo.png");
-            width: 560px;
+            width: 100%;
             height: 120px;
             background-size: contain;
             background-repeat: no-repeat;
@@ -223,242 +224,240 @@
     <meta name="keywords" content="edm, la coffeina, la cocaina, giorgiomatyo, giorgio-matyo, party, music"/>
 </head>
 <body>
-<div>
-    <div class="logo">
-    </div>
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/umb14QJE0vs"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <h2>Stream it now</h2>
-    </div>
-    <a href="https://open.spotify.com/artist/6bjEp4sSEaNK5a48rIErPJ"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path fill-rule="evenodd"
-                      d="M2 12a10.01 10.01 0 0 1 20 0 10.01 10.01 0 0 1-20 0zm13.48 4.36c.64.52 1.52-.6.64-1.12-2.8-1.63-6.12-1.72-9.2-1-.72.1-.66 1.24.08 1.24 3-.48 5.59-.86 8.48.88zm1.06-2.49C12.98 12.03 10.5 12 6.8 12.8c-.93 0-.99-1.31-.16-1.56 3.53-.92 7.46-.65 10.64 1.24.72.52.36 1.83-.74 1.4zm1.1-2.99c1 .75 1.96-1 .92-1.6-3.54-2.1-8.59-2.4-12.52-1.24-.97.32-.54 1.96.24 1.84 4.12-1.01 7.98-1.04 11.36 1z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Spotify
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://music.apple.com/hu/artist/giorgio-matyo/1616376240?app=music"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path d="M11.72 5.05c2.51.08 4.62-2.65 4.26-5.05-2.34.16-4.7 2.62-4.26 5.05zm7.96 12.9a15 15 0 0 0 1.37-2.54c-3.59-1.36-4.16-6.42-.62-8.36a5.35 5.35 0 0 0-4.03-2.13c-1.9 0-2.7.9-4.01.9-1.36 0-2.4-.9-4.03-.9-1.61 0-3.33.98-4.41 2.65-1.53 2.35-1.27 6.78 1.2 10.55.9 1.35 2.08 2.87 3.62 2.88.64 0 1.07-.18 1.53-.39a4.9 4.9 0 0 1 4.2 0c.45.2.87.4 1.5.39 1.55-.01 2.8-1.7 3.68-3.05z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Apple Music
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://www.youtube.com/watch?v=umb14QJE0vs"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 310 310">
-                <path d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
-    C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
-    C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
-    c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
-    c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
-    C204.394,157.263,202.325,160.684,199.021,162.41z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Youtube
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://music.youtube.com/playlist?list=OLAK5uy_lV6SJa3l1Z_L6btU--pIchY-CFdoBCLpo"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 310 310">
-                <path d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
-    C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
-    C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
-    c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
-    c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
-    C204.394,157.263,202.325,160.684,199.021,162.41z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Youtube Music
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://listen.tidal.com/artist/31391242"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path d="M4 4 0 8l4 4 4-4-4-4zm8 0L8 8l4 4 4-4-4-4zm8 0 4 4-4 4-4-4 4-4zM8 16l4 4 4-4-4-4-4 4z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Tidal
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://music.amazon.com/artists/B09WLGPHRY"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path fill-rule="evenodd"
-                      d="M11 15c-1 0-1.6-.8-1.6-2 0-2.3 2.1-2.8 4.1-2.8 0 1.8 0 4.8-2.4 4.8zm5.3 2.6h-.7c-.9-.7-1-1-1.6-1.8-2.5 3.2-8.7 2.8-8.7-2.3C5.3 8.9 10 8 13.5 8c0 0 .1-1.7-.3-2.3-1-1.5-3.5-.7-3.8.9 0 .2-.2.5-.5.5l-2.7-.3c-.2 0-.5-.2-.4-.6C6.4 3 9.4 2 12 2c1.3 0 3 .4 4.2 1.4 1.8 1.6 1 6.8 1.2 9 0 1.3.5 2 1 2.6.2.3.2.6 0 .7l-2.1 1.9zm3.1 1.7a16 16 0 0 1-17-1.3c-.3-.2-.5.1-.3.3 4.4 5.2 12.4 6.5 17.6 1.6.4-.3 0-.8-.3-.6zm.6 2c0 .1 0 .2.3 0 1.1-.9 1.4-3 1.2-3.3-.2-.2-2.3-.5-3.5.4-.2.1-.2.3 0 .3.7-.1 2.3-.3 2.6 0 .2.4-.4 1.9-.6 2.5z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Amazon Music
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://www.deezer.com/artist/164889767"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path
-                        d="M19.53 6.09V5h4.34v1.09h-4.34zM9.77 7.7V6.63h4.34V7.7H9.77zm9.76-1.08V7.7h4.34V6.63h-4.34zM9.77 9.34V8.26h4.34v1.08H9.77zm9.76-1.08v1.08h4.34V8.26h-4.34zM0 10.96V9.89h4.34v1.09H0zm9.77-1.08v1.09h4.34V9.88H9.77zm4.88 1.09V9.88h4.34v1.09h-4.34zm4.88-1.09v1.09h4.34V9.88h-4.34zM0 12.6v-1.1h4.34v1.09H0zm9.77-1.09v1.09h4.34v-1.1H9.77zm4.88 1.09v-1.1h4.34v1.09h-4.34zm4.88-1.09v1.09h4.34v-1.1h-4.34zM0 14.22v-1.08h4.34v1.08H0zm4.88-1.08v1.08h4.34v-1.08H4.88zm4.89 1.08v-1.08h4.34v1.08H9.77zm4.88-1.08v1.08h4.34v-1.08h-4.34zm4.88 1.08v-1.08h4.34v1.08h-4.34zM0 14.77v1.08h4.34v-1.08H0zm4.88 1.08v-1.08h4.34v1.08H4.88zm4.89-1.08v1.08h4.34v-1.08H9.77zm4.88 1.08v-1.08h4.34v1.08h-4.34zm4.88-1.08v1.08h4.34v-1.08h-4.34zM0 17.48v-1.09h4.34v1.09H0zm4.88-1.09v1.09h4.34v-1.09H4.88zm4.89 1.09v-1.09h4.34v1.09H9.77zm4.88-1.09v1.09h4.34v-1.09h-4.34zm4.88 1.09v-1.09h4.34v1.09h-4.34z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Deezer
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://open.qobuz.com/artist/13442236"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path d="M21.744 9.815C19.836 1.261 8.393-1 3.55 6.64-.618 13.214 4 22 11.988 22c2.387 0 4.63-.83 6.394-2.304l2.252 2.252 1.224-1.224-2.252-2.253c1.983-2.407 2.823-5.586 2.138-8.656zm-3.508 7.297L16.4 15.275c-.786-.787-2.017.432-1.224 1.225L17 18.326C10.29 23.656.5 16 5.16 7.667c3.502-6.264 13.172-4.348 14.707 2.574.529 2.385-.06 4.987-1.63 6.87z"></path>
-                <path d="M13.4 8.684a3.59 3.59 0 0 0-4.712 1.9 3.59 3.59 0 0 0 1.9 4.712 3.594 3.594 0 0 0 4.711-1.89 3.598 3.598 0 0 0-1.9-4.722zm-.737 3.591a.727.727 0 0 1-.965.384.727.727 0 0 1-.384-.965.727.727 0 0 1 .965-.384.73.73 0 0 1 .384.965z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Qobuz
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://napster.com/giorgio-matyo"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path d="M14.233 16.655a5.974 5.974 0 0 1-2.236 1.353 5.956 5.956 0 0 1-2.231-1.353h4.467zM16.185 7.8a7.975 7.975 0 0 1 3.088-1.606v7.151c0 9.734-14.552 9.654-14.552.014v-7.17c1.15.307 2.2.87 3.084 1.616a7.276 7.276 0 0 1 8.38-.005zM6.922 5.205a7.46 7.46 0 0 1 10.154-.01 10.2 10.2 0 0 0-.913.511 9.066 9.066 0 0 0-8.336.005 10.18 10.18 0 0 0-.905-.506zm-3.98-.99V7.29c-2.59 1.62-2.59 5.372.005 7.022 1.377 10.934 17.05 10.459 18.096-.008 2.604-1.61 2.613-5.4.008-7.019v-3.07a9.437 9.437 0 0 0-2.222.329C15.19.484 8.825.484 5.187 4.548a9.627 9.627 0 0 0-2.244-.332zm9.556 11.482c2.156-.018 4.649.525 5.013-2.458-3.527-.027-4.432-.173-5.013 2.458zm-6.01-2.454c.21 2.98 2.856 2.434 5.012 2.458-.585-2.635-1.495-2.489-5.013-2.458zm7.195 5.15a6.117 6.117 0 0 1-3.367 0c-.247.129-.406.457-.449.72a4.18 4.18 0 0 0 4.268 0 .89.89 0 0 0-.452-.72z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Napster
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <h2>BUY</h2>
-    <a href="https://music.apple.com/hu/artist/giorgio-matyo/1616376240?app=itunes"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path d="M11.72 5.05c2.51.08 4.62-2.65 4.26-5.05-2.34.16-4.7 2.62-4.26 5.05zm7.96 12.9a15 15 0 0 0 1.37-2.54c-3.59-1.36-4.16-6.42-.62-8.36a5.35 5.35 0 0 0-4.03-2.13c-1.9 0-2.7.9-4.01.9-1.36 0-2.4-.9-4.03-.9-1.61 0-3.33.98-4.41 2.65-1.53 2.35-1.27 6.78 1.2 10.55.9 1.35 2.08 2.87 3.62 2.88.64 0 1.07-.18 1.53-.39a4.9 4.9 0 0 1 4.2 0c.45.2.87.4 1.5.39 1.55-.01 2.8-1.7 3.68-3.05z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            iTunes
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
-    <a href="https://amazon.com/dp/B09WLGPHRY"
-       target="_blank" rel="noopener noreferrer nofollow"
-       inNewTab
-       class="button"
-       tabIndex="0">
-        <div class="icon">
-            <svg viewBox="0 0 24 24">
-                <path fill-rule="evenodd"
-                      d="M11 15c-1 0-1.6-.8-1.6-2 0-2.3 2.1-2.8 4.1-2.8 0 1.8 0 4.8-2.4 4.8zm5.3 2.6h-.7c-.9-.7-1-1-1.6-1.8-2.5 3.2-8.7 2.8-8.7-2.3C5.3 8.9 10 8 13.5 8c0 0 .1-1.7-.3-2.3-1-1.5-3.5-.7-3.8.9 0 .2-.2.5-.5.5l-2.7-.3c-.2 0-.5-.2-.4-.6C6.4 3 9.4 2 12 2c1.3 0 3 .4 4.2 1.4 1.8 1.6 1 6.8 1.2 9 0 1.3.5 2 1 2.6.2.3.2.6 0 .7l-2.1 1.9zm3.1 1.7a16 16 0 0 1-17-1.3c-.3-.2-.5.1-.3.3 4.4 5.2 12.4 6.5 17.6 1.6.4-.3 0-.8-.3-.6zm.6 2c0 .1 0 .2.3 0 1.1-.9 1.4-3 1.2-3.3-.2-.2-2.3-.5-3.5.4-.2.1-.2.3 0 .3.7-.1 2.3-.3 2.6 0 .2.4-.4 1.9-.6 2.5z"></path>
-            </svg>
-        </div>
-        <div class="title">
-            Amazon
-        </div>
-        <div class="chevron">
-            <svg viewBox="0 0 24 24">
-                <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
-            </svg>
-        </div>
-    </a>
+<div class="logo">
 </div>
+<div>
+    <iframe width="412" height="315" src="https://www.youtube.com/embed/umb14QJE0vs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    <h2>Stream it now</h2>
+</div>
+<a href="https://open.spotify.com/artist/6bjEp4sSEaNK5a48rIErPJ"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path fill-rule="evenodd"
+                  d="M2 12a10.01 10.01 0 0 1 20 0 10.01 10.01 0 0 1-20 0zm13.48 4.36c.64.52 1.52-.6.64-1.12-2.8-1.63-6.12-1.72-9.2-1-.72.1-.66 1.24.08 1.24 3-.48 5.59-.86 8.48.88zm1.06-2.49C12.98 12.03 10.5 12 6.8 12.8c-.93 0-.99-1.31-.16-1.56 3.53-.92 7.46-.65 10.64 1.24.72.52.36 1.83-.74 1.4zm1.1-2.99c1 .75 1.96-1 .92-1.6-3.54-2.1-8.59-2.4-12.52-1.24-.97.32-.54 1.96.24 1.84 4.12-1.01 7.98-1.04 11.36 1z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Spotify
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://music.apple.com/hu/artist/giorgio-matyo/1616376240?app=music"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M11.72 5.05c2.51.08 4.62-2.65 4.26-5.05-2.34.16-4.7 2.62-4.26 5.05zm7.96 12.9a15 15 0 0 0 1.37-2.54c-3.59-1.36-4.16-6.42-.62-8.36a5.35 5.35 0 0 0-4.03-2.13c-1.9 0-2.7.9-4.01.9-1.36 0-2.4-.9-4.03-.9-1.61 0-3.33.98-4.41 2.65-1.53 2.35-1.27 6.78 1.2 10.55.9 1.35 2.08 2.87 3.62 2.88.64 0 1.07-.18 1.53-.39a4.9 4.9 0 0 1 4.2 0c.45.2.87.4 1.5.39 1.55-.01 2.8-1.7 3.68-3.05z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Apple Music
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://www.youtube.com/watch?v=umb14QJE0vs"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 310 310">
+            <path d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+    C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+    C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+    c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+    c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+    C204.394,157.263,202.325,160.684,199.021,162.41z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Youtube
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://music.youtube.com/playlist?list=OLAK5uy_lV6SJa3l1Z_L6btU--pIchY-CFdoBCLpo"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 310 310">
+            <path d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+    C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+    C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+    c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+    c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+    C204.394,157.263,202.325,160.684,199.021,162.41z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Youtube Music
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://listen.tidal.com/artist/31391242"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M4 4 0 8l4 4 4-4-4-4zm8 0L8 8l4 4 4-4-4-4zm8 0 4 4-4 4-4-4 4-4zM8 16l4 4 4-4-4-4-4 4z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Tidal
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://music.amazon.com/artists/B09WLGPHRY"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path fill-rule="evenodd"
+                  d="M11 15c-1 0-1.6-.8-1.6-2 0-2.3 2.1-2.8 4.1-2.8 0 1.8 0 4.8-2.4 4.8zm5.3 2.6h-.7c-.9-.7-1-1-1.6-1.8-2.5 3.2-8.7 2.8-8.7-2.3C5.3 8.9 10 8 13.5 8c0 0 .1-1.7-.3-2.3-1-1.5-3.5-.7-3.8.9 0 .2-.2.5-.5.5l-2.7-.3c-.2 0-.5-.2-.4-.6C6.4 3 9.4 2 12 2c1.3 0 3 .4 4.2 1.4 1.8 1.6 1 6.8 1.2 9 0 1.3.5 2 1 2.6.2.3.2.6 0 .7l-2.1 1.9zm3.1 1.7a16 16 0 0 1-17-1.3c-.3-.2-.5.1-.3.3 4.4 5.2 12.4 6.5 17.6 1.6.4-.3 0-.8-.3-.6zm.6 2c0 .1 0 .2.3 0 1.1-.9 1.4-3 1.2-3.3-.2-.2-2.3-.5-3.5.4-.2.1-.2.3 0 .3.7-.1 2.3-.3 2.6 0 .2.4-.4 1.9-.6 2.5z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Amazon Music
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://www.deezer.com/artist/164889767"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path
+                    d="M19.53 6.09V5h4.34v1.09h-4.34zM9.77 7.7V6.63h4.34V7.7H9.77zm9.76-1.08V7.7h4.34V6.63h-4.34zM9.77 9.34V8.26h4.34v1.08H9.77zm9.76-1.08v1.08h4.34V8.26h-4.34zM0 10.96V9.89h4.34v1.09H0zm9.77-1.08v1.09h4.34V9.88H9.77zm4.88 1.09V9.88h4.34v1.09h-4.34zm4.88-1.09v1.09h4.34V9.88h-4.34zM0 12.6v-1.1h4.34v1.09H0zm9.77-1.09v1.09h4.34v-1.1H9.77zm4.88 1.09v-1.1h4.34v1.09h-4.34zm4.88-1.09v1.09h4.34v-1.1h-4.34zM0 14.22v-1.08h4.34v1.08H0zm4.88-1.08v1.08h4.34v-1.08H4.88zm4.89 1.08v-1.08h4.34v1.08H9.77zm4.88-1.08v1.08h4.34v-1.08h-4.34zm4.88 1.08v-1.08h4.34v1.08h-4.34zM0 14.77v1.08h4.34v-1.08H0zm4.88 1.08v-1.08h4.34v1.08H4.88zm4.89-1.08v1.08h4.34v-1.08H9.77zm4.88 1.08v-1.08h4.34v1.08h-4.34zm4.88-1.08v1.08h4.34v-1.08h-4.34zM0 17.48v-1.09h4.34v1.09H0zm4.88-1.09v1.09h4.34v-1.09H4.88zm4.89 1.09v-1.09h4.34v1.09H9.77zm4.88-1.09v1.09h4.34v-1.09h-4.34zm4.88 1.09v-1.09h4.34v1.09h-4.34z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Deezer
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://open.qobuz.com/artist/13442236"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M21.744 9.815C19.836 1.261 8.393-1 3.55 6.64-.618 13.214 4 22 11.988 22c2.387 0 4.63-.83 6.394-2.304l2.252 2.252 1.224-1.224-2.252-2.253c1.983-2.407 2.823-5.586 2.138-8.656zm-3.508 7.297L16.4 15.275c-.786-.787-2.017.432-1.224 1.225L17 18.326C10.29 23.656.5 16 5.16 7.667c3.502-6.264 13.172-4.348 14.707 2.574.529 2.385-.06 4.987-1.63 6.87z"></path>
+            <path d="M13.4 8.684a3.59 3.59 0 0 0-4.712 1.9 3.59 3.59 0 0 0 1.9 4.712 3.594 3.594 0 0 0 4.711-1.89 3.598 3.598 0 0 0-1.9-4.722zm-.737 3.591a.727.727 0 0 1-.965.384.727.727 0 0 1-.384-.965.727.727 0 0 1 .965-.384.73.73 0 0 1 .384.965z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Qobuz
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://napster.com/giorgio-matyo"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M14.233 16.655a5.974 5.974 0 0 1-2.236 1.353 5.956 5.956 0 0 1-2.231-1.353h4.467zM16.185 7.8a7.975 7.975 0 0 1 3.088-1.606v7.151c0 9.734-14.552 9.654-14.552.014v-7.17c1.15.307 2.2.87 3.084 1.616a7.276 7.276 0 0 1 8.38-.005zM6.922 5.205a7.46 7.46 0 0 1 10.154-.01 10.2 10.2 0 0 0-.913.511 9.066 9.066 0 0 0-8.336.005 10.18 10.18 0 0 0-.905-.506zm-3.98-.99V7.29c-2.59 1.62-2.59 5.372.005 7.022 1.377 10.934 17.05 10.459 18.096-.008 2.604-1.61 2.613-5.4.008-7.019v-3.07a9.437 9.437 0 0 0-2.222.329C15.19.484 8.825.484 5.187 4.548a9.627 9.627 0 0 0-2.244-.332zm9.556 11.482c2.156-.018 4.649.525 5.013-2.458-3.527-.027-4.432-.173-5.013 2.458zm-6.01-2.454c.21 2.98 2.856 2.434 5.012 2.458-.585-2.635-1.495-2.489-5.013-2.458zm7.195 5.15a6.117 6.117 0 0 1-3.367 0c-.247.129-.406.457-.449.72a4.18 4.18 0 0 0 4.268 0 .89.89 0 0 0-.452-.72z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Napster
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<h2>BUY</h2>
+<a href="https://music.apple.com/hu/artist/giorgio-matyo/1616376240?app=itunes"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path d="M11.72 5.05c2.51.08 4.62-2.65 4.26-5.05-2.34.16-4.7 2.62-4.26 5.05zm7.96 12.9a15 15 0 0 0 1.37-2.54c-3.59-1.36-4.16-6.42-.62-8.36a5.35 5.35 0 0 0-4.03-2.13c-1.9 0-2.7.9-4.01.9-1.36 0-2.4-.9-4.03-.9-1.61 0-3.33.98-4.41 2.65-1.53 2.35-1.27 6.78 1.2 10.55.9 1.35 2.08 2.87 3.62 2.88.64 0 1.07-.18 1.53-.39a4.9 4.9 0 0 1 4.2 0c.45.2.87.4 1.5.39 1.55-.01 2.8-1.7 3.68-3.05z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        iTunes
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
+<a href="https://amazon.com/dp/B09WLGPHRY"
+   target="_blank" rel="noopener noreferrer nofollow"
+   inNewTab
+   class="button"
+   tabIndex="0">
+    <div class="icon">
+        <svg viewBox="0 0 24 24">
+            <path fill-rule="evenodd"
+                  d="M11 15c-1 0-1.6-.8-1.6-2 0-2.3 2.1-2.8 4.1-2.8 0 1.8 0 4.8-2.4 4.8zm5.3 2.6h-.7c-.9-.7-1-1-1.6-1.8-2.5 3.2-8.7 2.8-8.7-2.3C5.3 8.9 10 8 13.5 8c0 0 .1-1.7-.3-2.3-1-1.5-3.5-.7-3.8.9 0 .2-.2.5-.5.5l-2.7-.3c-.2 0-.5-.2-.4-.6C6.4 3 9.4 2 12 2c1.3 0 3 .4 4.2 1.4 1.8 1.6 1 6.8 1.2 9 0 1.3.5 2 1 2.6.2.3.2.6 0 .7l-2.1 1.9zm3.1 1.7a16 16 0 0 1-17-1.3c-.3-.2-.5.1-.3.3 4.4 5.2 12.4 6.5 17.6 1.6.4-.3 0-.8-.3-.6zm.6 2c0 .1 0 .2.3 0 1.1-.9 1.4-3 1.2-3.3-.2-.2-2.3-.5-3.5.4-.2.1-.2.3 0 .3.7-.1 2.3-.3 2.6 0 .2.4-.4 1.9-.6 2.5z"></path>
+        </svg>
+    </div>
+    <div class="title">
+        Amazon
+    </div>
+    <div class="chevron">
+        <svg viewBox="0 0 24 24">
+            <path d="M19.5 16 12 9l-7.5 7-1-1L12 7l8.5 8-1 1z"></path>
+        </svg>
+    </div>
+</a>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1805ZNDML0"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
